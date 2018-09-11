@@ -36,3 +36,5 @@ Route::get('/form', 'HomeController@forms');
 
 //wala pang laman
 Route::get('/user_dashboard', 'HomeController@user_d')->name('user_dashboard');
+
+Route::get('/User_pre-need', 'HomeController@Preneedip1_1');

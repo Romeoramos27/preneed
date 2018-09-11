@@ -71,5 +71,7 @@ class HomeController extends Controller
     public function ip2_4(){
         return view('users.ip2_4');
     }
-
+public function Preneedip1_1(){
+        return view('Pre-need.Pre-need1');
+    }
 }
